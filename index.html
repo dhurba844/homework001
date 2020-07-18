@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class = "row">
+            <div class= "col-lg-3">
+                <div class = "timer" id="timer">Time Remaining:</div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="container">
+
+        <div class= "row">
+            <h1 id="banner" class = "banner text-center col-12">Code Quiz</h1>
+        </div>
+    </div>    
+
+
+    <div class= "row">
+        <div id="maintextarea" class = "question container py-5 px-3 my-3">
+            Test your coding fundamentals knowledge by taking this brief quiz. Score will be shown at the end. 15 seconds will be subtracted from time remaining everytime the questions is answered incorrectly.
+        </div>
+    </div>
+    
+    <div class= "row">
+        <textarea id="textarea" class= "textarea text-center col-auto"></textarea>
+    </div> 
+    
+    <div class= "buttons col-auto"></div>
+           
+    </div>
+
+    
+
+</body>
+<script src="script.js"></script>
+</html>
